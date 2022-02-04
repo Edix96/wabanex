@@ -1,6 +1,6 @@
 defmodule Wabanex.Users.Get do
-
   alias Wabanex.{Repo, User}
+
   def call(id) do
     id
     |> Ecto.UUID.cast()
