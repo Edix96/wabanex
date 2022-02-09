@@ -44,7 +44,8 @@ defmodule Wabanex.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:absinthe, "~> 1.7.0"},
-      {:absinthe_plug, "~> 1.5.8"}
+      {:absinthe_plug, "~> 1.5.8"},
+      {:crudry, "~> 2.4.0"}
     ]
   end
 
